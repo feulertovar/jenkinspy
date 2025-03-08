@@ -11,7 +11,6 @@ pipeline {
             steps {
                 echo 'Running tests....'
                 sh 'python3 -m unittest test.py'
-'
             }
         }
     }
