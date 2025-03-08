@@ -1,5 +1,5 @@
-def say_hello():
-    return "Hello, Jenkins!"
-
-if __name__ == "__main__":
-    print(say_hello())
+def say_hello(name="Jenkins"):
+    """
+    Returns a greeting message. If no name is provided, defaults to "Jenkins".
+    """
+    return f"Hello, {name}!"
